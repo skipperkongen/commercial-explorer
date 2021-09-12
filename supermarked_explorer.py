@@ -13,8 +13,7 @@ import seaborn as sns
 df = pd.read_csv('supermarkeder_kbh.csv').loc[:, [
     'lat', 'lon', 'brand', 'branch'
 ]].dropna()
-df['size'] = 15
-
+df['size'] = 75
 
 brands = df.brand.unique()
 
@@ -34,7 +33,7 @@ ALL_LAYERS = {
         opacity=0.8,
         stroked=True,
         filled=True,
-        radius_scale=6,
+        radius_scale=1,
         radius_min_pixels=1,
         radius_max_pixels=100,
         line_width_min_pixels=1,
