@@ -10,7 +10,7 @@ import seaborn as sns
 > København
 """
 
-df = pd.read_csv('supermarkeder_kbh.csv').loc[:, [
+df = pd.read_csv('https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/supermarkeder_kbh.csv').loc[:, [
     'lat', 'lon', 'brand', 'branch'
 ]].dropna()
 df['size'] = 75

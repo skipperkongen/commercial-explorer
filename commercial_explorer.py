@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 
 # Data
 
-df = pd.read_csv('commercial_kbh.csv').loc[:, [
+df = pd.read_csv('https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/commercial_kbh.csv').loc[:, [
     'lat', 'lon', 'kind', 'category'
 ]].dropna()
 
