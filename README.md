@@ -23,9 +23,6 @@ Run supermarked explorer:
 ```bash
 # remote (if you did not clone the repository)
 streamlit run https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/supermarked_explorer.py
-
-# local (if you cloned the repository)
-streamlit run supermarkeder_kbh.py
 ```
 
 Run commercial explorer:
@@ -33,10 +30,30 @@ Run commercial explorer:
 ```bash
 # remote (if you did not clone the repository)
 streamlit run https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/commercial_explorer.py
+```
+
+## For developers
+
+Clone the repository:
+
+```
+git clone git@github.com:skipperkongen/commercial-explorer.git
+```
+
+If you clone the repository, you can also run the streamlit applications from the folder
+where you git cloned the source code to.
+
+Run supermarked explorer with your local source code:
+
+```bash
+# local (if you cloned the repository)
+streamlit run supermarkeder_kbh.py
+```
+
+Run commercial explorer with your local source code:
 
 # local (if you cloned the repository)
 streamlit run commercial_kbh.py
-```
 
 
 ## Data sources
