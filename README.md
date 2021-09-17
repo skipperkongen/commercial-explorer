@@ -2,11 +2,18 @@
 
 > København
 
+Install streamlit and application dependencies:
+
+```bash
+pip install streamlit numpy pandas matplotlib seaborn
+```
+
 Run supermarkeder:
 
 ```bash
-# remote
+# remote (if you did not clone the repository)
 streamlit run https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/supermarked_explorer.py
+
 # local (if you cloned the repository)
 streamlit run supermarkeder_kbh.py
 ```
@@ -14,8 +21,9 @@ streamlit run supermarkeder_kbh.py
 Run commercial:
 
 ```bash
-# remote
+# remote (if you did not clone the repository)
 streamlit run https://raw.githubusercontent.com/skipperkongen/commercial-explorer/main/commercial_explorer.py
+
 # local (if you cloned the repository)
 streamlit run commercial_kbh.py
 ```
