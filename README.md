@@ -18,7 +18,7 @@ Install streamlit and application dependencies:
 pip install streamlit numpy pandas matplotlib seaborn
 ```
 
-Run supermarkeder:
+Run supermarked explorer:
 
 ```bash
 # remote (if you did not clone the repository)
@@ -28,7 +28,7 @@ streamlit run https://raw.githubusercontent.com/skipperkongen/commercial-explore
 streamlit run supermarkeder_kbh.py
 ```
 
-Run commercial:
+Run commercial explorer:
 
 ```bash
 # remote (if you did not clone the repository)
