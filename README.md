@@ -1,6 +1,16 @@
 # Supermarked explorer
 
-> København
+> København edition
+
+This is a short demo of streamlit that visualises shop data from openstreetmap
+on a 3D map using pydeck (built into streamlit).
+
+Look at the source code to see how it's made. It's quite simple.
+
+- [commercial_explorer.py](./commercial_explorer.py)
+- [supermarked_explorer.py](./supermarked_explorer.py)
+
+## How to run
 
 Install streamlit and application dependencies:
 
