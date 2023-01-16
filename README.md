@@ -54,7 +54,6 @@ Run commercial explorer with your local source code:
 
 ```bash
 # local (if you cloned the repository)
-streamlit run commercial_kbh.py
 ```
 
 ## Data sources
